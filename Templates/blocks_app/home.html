@@ -1,0 +1,9 @@
+{% extends 'blocks_app/base.html' %}
+{% block content %}
+    {% for i in object_list  %}
+    <div class="mtx .bg-info">
+        <a href=" {% url 'index' i.pk %} "><h1>{{i.title}}</h1></a><br>
+        <p>{{i.summary}}</p><br>
+        <h4>by-{{i.author_name}}</h4>
+    {% endfor %}
+{% endblock content %}

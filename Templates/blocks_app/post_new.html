@@ -1,0 +1,10 @@
+{% extends 'blocks_app/home.html' %}
+{% block content %}
+<div class="mtx .bg-info">
+    <form action="" method='post'>
+        {% csrf_token %}
+        {{form.as_p}}
+        <input class="btn btn-warning" type="submit" value="save">
+    </form>
+</div>
+{% endblock content %}

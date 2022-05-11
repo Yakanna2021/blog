@@ -1,0 +1,55 @@
+
+.mtx{
+    text-decoration-style: double;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-style: unset;
+    background-color: aqua;
+    border: 12px;
+    text-align: center;
+}
+body{
+    background-color: slategray;
+}
+
+.nav-right{
+
+    border: 12px;
+}
+.beta { color: color("purple"); }
+
+
+.mtx5{
+    border: 12px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.page{
+    padding: 15px;
+    margin: 11px;
+}
+
+.title{
+    
+    color:orangered;
+    
+}
+
+.title2{
+    color: darksalmon;
+   
+
+}
+.title3{
+    color:darkgrey;
+}
+.imagin{
+    height: 156px;
+    width: 156px;
+}
+
+.saii{
+    color: brown;
+
+}

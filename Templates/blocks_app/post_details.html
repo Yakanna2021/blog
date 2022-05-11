@@ -1,0 +1,11 @@
+{% extends 'blocks_app/base.html' %}
+{% block content %}
+<div class="mtx .bg-info">
+    <h2>{{post.title}}</h2>
+    <p>{{post.summary}}</p>
+    <img src="{{post.image}}" alt="{{ post.title }}">
+    <h2>By-{{post.author}}</h2>
+</div> 
+<a href="{% url 'update' post.pk %}"><button type='button' class="btn btn-success">Edit</button></a>
+<a href="{% url 'Delete' post.pk %}"><button type='button' class="btn btn-danger">Delete</button></a>
+{% endblock content %}
